@@ -5,7 +5,7 @@
         "race": "Xarvonian",
         "age": 154,
         "gender": "male",
-        "image": "/images/alien-1.png"
+        "image": "react-alien-cards/images/alien-1.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "race": "Zynthari",
         "age": 17,
         "gender": "female",
-        "image": "/images/alien-2.png"
+        "image": "react-alien-cards/images/alien-2.png"
     },
     {
         "id": 3,
@@ -21,6 +21,6 @@
         "race": "Quorathan",
         "age": 82,
         "gender": "male",
-        "image": "/images/alien-3.png"
+        "image": "react-alien-cards/images/alien-3.png"
     }
 ]
