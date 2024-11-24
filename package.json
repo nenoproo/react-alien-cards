@@ -1,5 +1,4 @@
 {
-  "homepage": "https://nenoproo.github.io/react-alien-cards",
   "name": "react-alien-cards",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
