@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'VenusRising-Regular';
+  src: url('/fonts/venus rising.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'VenusRising-Regular', sans-serif;
+}
+
+.cards-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 225px;
+  height: auto;
+  border: 1px solid;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+  z-index: 1;
+  overflow: hidden;
+  /* Prevents any child elements from sticking out */
+}
+
+.card:hover {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.card-image {
+  width: 225px;
+  height: 400px;
+   /* Ensure image stays in the box */
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin-bottom: 7px;
+}

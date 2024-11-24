@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Zorvik",
+        "race": "Xarvonian",
+        "age": 154,
+        "gender": "male",
+        "image": "/images/alien-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Molvaris",
+        "race": "Zynthari",
+        "age": 17,
+        "gender": "female",
+        "image": "/images/alien-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Thaloxen",
+        "race": "Quorathan",
+        "age": 82,
+        "gender": "male",
+        "image": "/images/alien-3.png"
+    }
+]
