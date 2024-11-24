@@ -6,7 +6,7 @@ const App = () => {
   const [aliens, setAliens] = useState([]);
 
   useEffect(() => {
-    fetch('react-alien-cards/data.json')
+    fetch(`${import.meta.env.BASE_URL}data.json`)
       .then((response) => {
         // If response is null, undefined, or not provided for some reason, the if (!response) block will execute.
         if (!response) {
